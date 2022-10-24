@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cssnya.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Annum</title>
+</head>
+<body>
+    <img src="Metode Bagi Dua.png" id="header">
+    <div class="main">
+        <div class="leftbar">
+            <div class="materi">
+                <h2>Apa itu Metode Bagi Dua?</h2>
+                <p class="submateri">Metode Bagi-Dua adalah algoritma pencarian akar pada sebuah interval. Interval tersebut membagi dua bagian, lalu memilih dari dua bagian ini dipilih bagian mana yang mengandung akar dan bagian yang tidak mengandung akar dibuang. Hal ini dilakukan berulang-ulang hingga diperoleh akar persamaan atau mendekati akar persamaan. Metode ini berlaku ketika ingin memecahkan persamaan f(x) = 0 dengan f(x) merupakan fungsi kontinu.</p>
+                <img src="MetodeBagiDua.webp" alt="" style="justify-content: center; align-items: center;">
+                <hr style="width: 900px; border: 1px solid black;" >
+                <h2>Bagaimana Prosedur Metode Bagi Dua?</h2>
+                <p class="submateri">Misal diketahui jika f(x) adalah sebuah fungsi kontinu pada suatu interval [a, b], dimana nilai dari f(a)f(b)<0. Karena f sudah diketahui kontinu, maka akan ada setidaknya satu akar diantara interval [a, b]. Selanjutnya kita definisikan c sebagai nilai tengah dari [a, b] atau c = (a+b)/2. Dari sini kita mendapatkan dua interval baru, yaitu [a, c] dan [c, b]. Selanjutnya akan dicek apakah f(a)f(c)<0 atau f(b)f(c)<0. Jika f(a)f(c)<0, maka artinya akan setidaknya ada satu akar diantara interval [a, c]. Jika tidak, maka setidaknya akan ada satu akar diantara interval [c, b]. Ulangi kembali langkah dari awal dengan mengsubtitusi nilai b menjadi c apabila f(a)f(c)<0 dan a menjadi c jika f(b)f(c)<0. </p>
+                <hr style="width: 900px; border: 1px solid black;" >
+                <h2>Contoh penyelesaian dengan Metode Bagi Dua</h2>
+                <p>Misalkan diketahui sebuah fungsi y = x^3 + 2x + 1. Carilah akar dari fungsi tersebut!</p>
+                <span>
+                    <label for="nilai A">Masukkan tebakan awal A : </label>
+                    <input type="text" id="nilaiA">
+                </span>
+                <span>
+                    <label for="nilai B">Masukkan tebakan awal B : </label>
+                    <input type="text" id="nilaiB">
+                </span>
+                <Button id="tombol" onclick="fungsinya()">Cari Akar</Button>
+                <table id="myTable">
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>f(A)</td>
+                        <td>f(B)</td>
+                        <td>C</td>
+                        <td>f(C)</td>
+                    </tr>
+                </table>
+                
+            </div>
+            
+        </div>
+        <div class="line">
+            
+        </div>
+        <div class="rightbar">
+            <div class="gridnya">
+                <div class="square">
+                    <img src="19657151_1645309168845026_1491043852297032866_n.png" id="fotoCikha">
+                </div>
+                <div>
+                    <h3>Muthia Rasikha Azahra</h3>
+                    <h3>(200*****)</h3>
+                </div>
+            </div>
+            <div class="gridnya" >
+                <div class="square"></div>
+                
+            </div>
+            <div class="gridnya" ">
+                <div class="square"></div>
+            </div>
+            <div class="gridnya" ">
+                <div class="square"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="javascriptnya.js"></script>
+</body>
+</html>

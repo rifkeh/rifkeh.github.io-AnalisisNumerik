@@ -1,0 +1,75 @@
+#header{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.leftbar{
+    flex-basis: 70%;
+}
+.line{
+    flex-basis: 2%;
+    border-left: 2px solid black;
+}
+.rightbar{
+    flex-basis: 28%;
+    display: flex;
+    flex-direction: column;
+}
+.materi{
+    margin: 20px;
+    font-size: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.materi img{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.submateri{
+    font-family:'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+    line-height: 150%;
+}
+.gridnya{
+    column-gap: 20px;
+    height: 100px;
+    display: flex;
+    margin-top: 20px;
+    border: 2px solid black;
+    
+}
+.square{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    
+}
+#fotoCikha{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+td{
+    border: 2px solid black;
+
+}
+table{
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
+}
